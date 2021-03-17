@@ -1,4 +1,4 @@
-const DATABASE_NAME = '';
+const DATABASE_NAME = 'products';
 
 const config = {
     PORT: 4000,

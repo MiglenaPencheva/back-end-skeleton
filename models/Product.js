@@ -24,6 +24,10 @@ const productScheme = new mongoose.Schema({
         type: mongoose.Types.ObjectId,
         ref: 'User',
     },
+    likedBy: [{
+        type: mongoose.Types.ObjectId,
+        ref: 'User',
+    }],
 });
 
 module.exports = mongoose.model('Product', productScheme);
